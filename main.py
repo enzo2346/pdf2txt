@@ -16,4 +16,4 @@ ocr_full_text = "\n".join(ocr_text_by_page)
 
 # Write OCR results to a text file with UTF-8 encoding to correctly handle special characters
 with open(output_path, 'w', encoding='utf-8') as file:
-    file.write(ocr_full_text
+    file.write(ocr_full_text)
